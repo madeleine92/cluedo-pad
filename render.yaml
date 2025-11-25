@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: cluedo-pad
+    env: go
+    buildCommand: "go build -o cluedo-pad"
+    startCommand: "./cluedo-pad"
+    envVars:
+      GO_VERSION: 1.25.4
